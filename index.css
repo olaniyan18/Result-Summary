@@ -1,0 +1,266 @@
+body {
+    width: auto;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Hanken Grotesk";
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 630px;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 5px 10px hsl(221, 100%, 96%);
+
+}
+
+
+
+
+.secondcontainer {
+    width: 300px;
+    height: auto;
+    background: linear-gradient(to top,hsl(241, 81%, 54%),hsl(252, 100%, 67%)  ) ;
+    padding: 10px;
+    border-radius: 25px;
+
+
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(0, 0%, 80%);
+}
+
+.circle {
+    padding: 10px;
+    width: 140px;
+    height: 140px;
+    border-radius: 140px;
+    background: linear-gradient(to top, hsla(241, 72%, 46%, 0),hsla(256, 72%, 46%, 1));
+    margin-top: 30px;
+    margin-left: 70px;
+    /* margin-bottom: 20px; */
+}
+
+.number76 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 15px;
+    color: white;
+}
+
+.number100 {
+    color: hsl(0, 0%, 80%);
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    margin: auto;
+
+
+}
+
+.great {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    margin: auto;
+    margin-top: 20px;
+    width: 220px;
+    text-align: center;
+    /* margin-bottom: 20spx; */
+    color: hsl(0, 0%, 80%);
+}
+
+.thirdcontainer {
+
+    padding: 25px;
+    margin-top: 10px;
+}
+
+.summary {
+    display: flex;
+    font-size: 20px;
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.reaction {
+    
+    width: 230px;
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 97%);
+    border-radius: 9px;
+    align-items: center;
+    padding-left: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.label {
+    margin-left: 10px;
+}
+
+.reactionnumber {
+    margin-left: 60px;
+    color: hsl(224, 30%, 27%);
+}
+
+.reaction1 {
+    margin-left: 5px;
+    color: hsl(0, 0%, 80%);
+}
+
+
+.reactionnumber2 {
+    margin-left: 75px;
+    color: hsl(224, 30%, 27%);
+}
+
+
+
+.memory {
+    width: 230px;
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 95%);
+    border-radius: 9px;
+    align-items: center;
+    padding-left: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.verbal {
+    width: 230px;
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 97%);
+    border-radius: 9px;
+    align-items: center;
+    padding-left: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.visual {
+    width: 230px;
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 97%);
+    border-radius: 9px;
+    align-items: center;
+    padding-left: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.button {
+    width: 240px;
+    height: 50px;
+    border: 0;
+    border-radius: 25px;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: "Hanken Grotesk";
+    font-size: 18px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .container{ 
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .secondcontainer {
+        width: 100%;
+        border-radius: 0px 0px 35px 35px;
+    
+    
+    }
+
+    .thirdcontainer {
+        width: 80%;
+    }
+
+    .reaction{
+        width: 100%;
+    }
+
+    .memory{
+        width: 100%;
+    }
+
+    .verbal {
+        width: 100%;
+    }
+
+    .visual{
+        width: 100%;
+    }
+    .circle {
+        padding: 10px;
+        width: 140px;
+        height: 140px;
+        border-radius: 140px;
+        background: linear-gradient(to top, hsla(241, 72%, 46%, 0),hsla(256, 72%, 46%, 1));
+        margin-top: 30px;
+        margin-left: 110px;
+    }
+
+    .reactionnumber {
+        margin-left: 140px;
+        color: hsl(224, 30%, 27%);
+    }
+    
+    .reactionnumber2 {
+        margin-left: 150px;
+        color: hsl(224, 30%, 27%);
+    }
+    
+    .reaction1 {
+        margin-left: 5px;
+        color: hsl(0, 0%, 80%);
+    }
+
+    .button{
+        width: 100%;
+    }
+}
